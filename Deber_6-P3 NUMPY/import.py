@@ -1,20 +1,33 @@
-# EJEMPLO 1: CREAR Y ANALIZAR UNA TABLA
-import pandas as pd
+# INVESTIGACIÓN NUMPY
+# INTEGRANTES:
+# - ELKIN ENRIQUE QUIÑONEZ RONQUILLO
+# - CARLOS DANIEL VASQUEZ NAVAS
+# FECHA: 13/08/2026
+# ============================================================
+# ¿QUÉ ES NUMPY?
+# ============================================================
+import numpy as np
 
-datos = {
-    "Producto": ["Aceite", "Filtro", "Bujía", "Batería"],
-    "Cantidad": [10, 15, 20, 5],
-    "Precio": [8.50, 12.00, 4.50, 90.00]
-}
+print("¿QUÉ ES NUMPY?")
+print("NumPy es una librería de Python utilizada para trabajar con")
+print("datos numéricos y realizar operaciones matemáticas de forma")
+print("rápida y eficiente.")
+# ============================================================
+# ¿PARA QUÉ SIRVE?
+# ============================================================S
 
-df = pd.DataFrame(datos)
+print("\n¿PARA QUÉ SIRVE?")
+print("NumPy sirve para crear y trabajar con arreglos de datos,")
+print("realizar operaciones matemáticas, estadísticas y cálculos")
+print("con grandes cantidades de información.")
 
-print("\nEJEMPLO 1")
-print(df)
 
-df["Total"] = df["Cantidad"] * df["Precio"]
+# ============================================================
+# ¿CÓMO SE UTILIZA?
+# ============================================================
 
-print("\nTotal por producto:")
-print(df)
+print("\n¿CÓMO SE UTILIZA?")
+print("Primero se importa la librería utilizando:")
+print("import numpy as np")
 
-print("\nVentas totales:", df["Total"].sum())
+print("Se importa utilizando: import pandas as pd")

@@ -1,40 +1,36 @@
-¡QUÉ ES PANDAS?
-Pandas es una librería de Python utilizada para organizar, manipular y analizar datos.
+¿QUÉ ES NUMPY?
+NumPy es una librería de Python utilizada para trabajar con
+datos numéricos y realizar operaciones matemáticas de forma
+rápida y eficiente.
 
 ¿PARA QUÉ SIRVE?
-Sirve para trabajar con tablas de datos, realizar cálculos, filtrar información y analizar datos.
+NumPy sirve para crear y trabajar con arreglos de datos,
+realizar operaciones matemáticas, estadísticas y cálculos
+con grandes cantidades de información.
 
 ¿CÓMO SE UTILIZA?
-Se importa utilizando: import pandas as pd
+Primero se importa la librería utilizando:
+import numpy as np
 
-EJEMPLO 1
-  Producto  Cantidad  Precio
-0   Aceite        10     8.5
-1   Filtro        15    12.0
-2    Bujía        20     4.5
-3  Batería         5    90.0
+==================================================
+EJEMPLO 1: CALIFICACIONES
+==================================================
+Notas: [87 71 92 60 86]
+Promedio: 79.2
+Nota más alta: 92
+Nota más baja: 60
+Notas aprobadas:
+[87 71 92 86]
 
-Total por producto:
-  Producto  Cantidad  Precio  Total
-0   Aceite        10     8.5   85.0
-1   Filtro        15    12.0  180.0
-2    Bujía        20     4.5   90.0
-3  Batería         5    90.0  450.0
+==================================================
+EJEMPLO 2: TEMPERATURA DEL MOTOR
+==================================================
+Temperaturas: [85 90 91 87 95 84]
+Temperatura promedio: 88.66666666666667
+Temperatura máxima: 95
+Temperaturas superiores a 90°C:
+[91 95]
 
-Ventas totales: 805.0
-
-INFORMACIÓN DE VEHÍCULOS
-       Marca    Modelo  Precio
-0     Toyota   Corolla   23100
-1  Chevrolet      Aveo   18000
-2        Kia  Sportage   29000
-3    Hyundai    Tucson   32000
-4      Mazda         3   25000
-
-Precio promedio:
-25420.0
-
-Vehículos con precio menor a $25000:
-       Marca   Modelo  Precio
-0     Toyota  Corolla   23100
-1  Chevrolet     Aveo   18000
+VALIDACIÓN
+Las notas tienen datos correctamente.
+Las temperaturas tienen datos correctamente.
