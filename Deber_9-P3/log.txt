@@ -1,0 +1,2 @@
+===== PRUEBA DE PRODUCTO INEXISTENTE =====
+ERROR: producto no existe
