@@ -60,24 +60,7 @@ Se utilizó un ciclo `for` para recorrer las diferentes reglas de validación. T
 
 El programa utiliza `try/except` para controlar errores como archivos inexistentes, archivos vacíos y problemas en la lectura del CSV.
 
-## Archivos generados
 
-El programa genera:
-
-- `mantenimientos_limpios.csv`: contiene los registros que superaron las validaciones.
-- `resumen_por_area.csv`: contiene un resumen de los mantenimientos y costos agrupados por área.
-
-## Ejecución
-
-El programa puede ejecutarse en Google Colab o Jupyter Notebook.
-
-Para ejecutarlo:
-
-1. Abrir el archivo `.ipynb`.
-2. Subir `mantenimientos.csv` y `mantenimientos_con_errores.csv`.
-3. Ejecutar las celdas en orden.
-4. Revisar los resultados, indicadores y gráficos.
-5. Verificar los archivos CSV generados.
 
 ## Conclusión
 
